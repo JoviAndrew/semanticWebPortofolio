@@ -1,0 +1,25 @@
+#number{
+    display: none;
+    text-align: center;
+}
+#alphabet{
+    display: none;
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+label{
+    text-align: center;
+    font-size: 28px;
+}
+
+div{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
