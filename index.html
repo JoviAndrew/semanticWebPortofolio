@@ -22,10 +22,17 @@
     <div>
         <button id="btnAlpha" class="btn btn-success" onclick="showAlphabet()">Alphabet</button>
         <button id="btnNum" class="btn btn-warning" onclick="showNumber()">Number</button>
+        <button id="btnAge" class="btn btn-primary" onclick="showAge()">Get Your Age</button>
+        <button id="btnBack" class="btn btn-danger" onclick="returnBack()">Back</button>
     </div>
     <div>
         <label id="number" onclick="addNumber()">1</label>
         <label id="alphabet" onclick="nextAlphabet()">A</label>
+        <div class="ageDiv">
+            <label id="inputAge">Input your Birthday!</label><input id="dateInput" type="date"/>
+            <button id="confirm" onclick="getAge()">Confirm</button>
+        </div>
+        <label id="yourAge">1</label>
     </div>
 </body>
 </html>

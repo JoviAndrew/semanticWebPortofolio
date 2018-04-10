@@ -7,6 +7,20 @@
     text-align: center;
 }
 
+#btnBack{
+    display: none;
+    text-align: center;
+}
+
+.ageDiv{
+    display: none;
+}
+
+#confirm{
+    text-align: center;
+}
+
+
 h1, h2{
     text-align: center;
 }
@@ -23,3 +37,6 @@ div{
     text-align: center;
 }
 
+#yourAge{
+    display: none;
+}
